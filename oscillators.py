@@ -84,7 +84,7 @@ def oscillator_projections() -> None:
   ax2.set_aspect("equal")
   ax2.set_xlabel("Real")
   ax2.set_ylabel("Imaginary")
-  ax2.set_title("Projection on Unit Circle")
+  ax2.set_title("Projection on real-imaginary plane")
 
   ax3 = fig.add_subplot(2, 2, 3)
   ax3.plot(t_range, f_t(t_range).real)
@@ -155,7 +155,7 @@ def damped_oscillator() -> None:
   ax2.set_aspect("equal")
   ax2.set_xlabel("Real")
   ax2.set_ylabel("Imaginary")
-  ax2.set_title("Projection on Damped Spiral")
+  ax2.set_title("Projection on real-imaginary plane")
 
   ax3 = fig.add_subplot(2, 2, 3)
   ax3.plot(t_range, f_t(t_range).real)
